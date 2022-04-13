@@ -27,3 +27,4 @@ export const addGoodsClass = (claInfo) => request({url: '/cla', data: claInfo, m
 export const alterGoodsClass = (id, claInfo) => request({url:`/cla/${id}`, method: 'put', data: claInfo})
 // 删除分类接口
 export const deleteCla = (id) => request({url:`/cla/${id}`, method: 'delete'})
+

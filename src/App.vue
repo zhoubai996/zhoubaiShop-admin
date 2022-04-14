@@ -7,26 +7,24 @@
 <script>
 export default {
   name: 'app',
-  data() {
+  provide () {
     return {
-      isRouterAlive: true,
+      reload: this.reload
     }
   },
-  components: {},
-  provide() {
+  data () {
     return {
-      reload: this.reload,
+      isRouterAlive: true
     }
   },
   methods: {
-    // 刷新页面方法
-    reload() {
+    reload () {
       this.isRouterAlive = false
       this.$nextTick(function () {
         this.isRouterAlive = true
       })
-    },
-  },
+    }
+  }
 }
 </script>
 

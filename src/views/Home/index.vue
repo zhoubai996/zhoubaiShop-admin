@@ -33,6 +33,12 @@
       background-color: #fff;
       border-radius: 5px;
     }
+    .box3 {
+      width: 760px;
+      height: 420px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
   }
   .footer {
     width: 100%;
@@ -51,6 +57,12 @@
       width: 400px;
       height: 400px;
       padding: 20px;
+      ul li {
+        height: 10px;
+        line-height: 10px;
+        font-size: 24px;
+        padding: 20px;
+      }
     }
   }
 }
@@ -63,8 +75,9 @@
     <div class="content">
       <div class="box1" ref="box1"></div>
       <div class="box2" ref="box2"></div>
-      <div class="box3"></div>
-      <div class="box4"></div>
+      <div class="box3">
+        <img src="https://img.codestu.cn/2022/04/14/e7951947479a6.jpeg" alt="" style="width:100%;height:100%;">
+      </div>
     </div>
     <div class="footer">
       <div class="title">技术栈</div>

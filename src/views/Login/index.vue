@@ -1,7 +1,7 @@
 <style lang="less" scoped>
 .login-container {
   .body {
-    background-image: url(https://img.codestu.cn/2022/04/04/3eaff9c4e829b.png);
+    background-image: url(https://img.codestu.cn/2022/04/14/e7951947479a6.jpeg);
     min-height: 1080px;
     .login-box {
     position: absolute;
@@ -43,13 +43,13 @@
             }
             
           }
-          li:nth-child(1) {
+          li:nth-child(1) a {
               color: #C71D23;
           }
-          li:nth-child(2) {
+          li:nth-child(2) a {
             color: #4186F5;
           }
-          li:nth-child(3) {
+          li:nth-child(3) a {
             color: #028CB0;
           }
         }
